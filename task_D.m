@@ -1,6 +1,6 @@
 % 定义参数范围
-delta_values = linspace(0, 1, 500);   % delta 从 0 到 1
-epsilon_values = linspace(0, 0.5, 300); % epsilon 从 0 到 0.5
+delta_values = linspace(0, 2, 500);   % delta 从 0 到 1
+epsilon_values = linspace(0, 1, 300); % epsilon 从 0 到 0.5
 T = 2 * pi;  % 周期 T
 
 % 设置 ODE solver 的选项
